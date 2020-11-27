@@ -16,6 +16,8 @@
 		96750C32257075FC000D9768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96750C30257075FC000D9768 /* Main.storyboard */; };
 		96750C34257075FE000D9768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96750C33257075FE000D9768 /* Assets.xcassets */; };
 		96750C37257075FE000D9768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96750C35257075FE000D9768 /* LaunchScreen.storyboard */; };
+		96750C6625707C85000D9768 /* ImageURLLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C6525707C85000D9768 /* ImageURLLoader.swift */; };
+		96750C6B25707CB7000D9768 /* ImageURLLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C6A25707CB6000D9768 /* ImageURLLoaderProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		96750C33257075FE000D9768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96750C36257075FE000D9768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96750C38257075FE000D9768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96750C6525707C85000D9768 /* ImageURLLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLLoader.swift; sourceTree = "<group>"; };
+		96750C6A25707CB6000D9768 /* ImageURLLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLLoaderProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				96750C0925707538000D9768 /* ImageURLLoader.h */,
 				96750C0A25707538000D9768 /* Info.plist */,
+				96750C6525707C85000D9768 /* ImageURLLoader.swift */,
+				96750C6A25707CB6000D9768 /* ImageURLLoaderProtocol.swift */,
 			);
 			path = ImageURLLoader;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 				TargetAttributes = {
 					96750C0525707538000D9768 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 					96750C0E25707538000D9768 = {
 						CreatedOnToolsVersion = 12.1;
@@ -262,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96750C6B25707CB7000D9768 /* ImageURLLoaderProtocol.swift in Sources */,
+				96750C6625707C85000D9768 /* ImageURLLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +447,7 @@
 		96750C1B25707538000D9768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
@@ -454,6 +464,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.ImageURLLoader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +474,7 @@
 		96750C1C25707538000D9768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
@@ -478,6 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.ImageURLLoader;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,6 +500,7 @@
 		96750C1E25707538000D9768 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;
@@ -504,6 +519,7 @@
 		96750C1F25707538000D9768 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;

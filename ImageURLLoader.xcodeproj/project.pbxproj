@@ -406,7 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Wisetree Solutions Pty Ltd (KYEZ379B3G)";
+				CODE_SIGN_IDENTITY = "Apple Development: support@wisetreeapps.com (L3GAFGXJCK)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;
@@ -426,7 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Wisetree Solutions Pty Ltd (KYEZ379B3G)";
+				CODE_SIGN_IDENTITY = "Apple Development: support@wisetreeapps.com (L3GAFGXJCK)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;

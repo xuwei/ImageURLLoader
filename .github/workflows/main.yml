@@ -30,7 +30,7 @@ jobs:
         with:
           project: ImageURLLoader.xcodeproj  
           scheme: ImageURLLoaderTests
-          action:   build, test
+          action: test
         
 
       

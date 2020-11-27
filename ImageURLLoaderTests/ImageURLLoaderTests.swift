@@ -17,6 +17,14 @@ class ImageURLLoaderTests: XCTestCase {
         }
     }
     
+    func testValidImageUrlHttpsWithCompletionParam() {
+        let timeout = 10.0
+        let handler: ((UIImage?)->Void) = { image in
+            XCTAssertNotNil(image)
+        }
+        ImageURLLoader(timeout: timeout).loadImage(from: "https://simgbb.com/images/logo.png", completionHandler: handler)
+    }
+    
     func testValidImageUrlHttp() {
         let timeout = 10.0
         ImageURLLoader(timeout: timeout).loadImage(from: "http://simgbb.com/images/logo.png") { image in

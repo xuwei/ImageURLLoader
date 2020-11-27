@@ -8,3 +8,6 @@ env:
 
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project ImageURLLoader.xcodeproj -scheme ImageURLLoader -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+
+after_failure:
+  - cat MSBuild_*.failure.txt

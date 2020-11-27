@@ -1,15 +1,18 @@
+os: osx
+
 before_install:
   - gem install cocoapods
 install:
   - brew update && brew upgrade swiftlint
   - pod install
-  
+
 language: swift
-osx_image: xcode11.6
-xcode_project: YourApp.xcodeproj # path to your xcodeproj folder
-xcode_scheme: YourAppTests
+osx_image: xcode12.2
+xcode_project: ImageURLLoader.xcodeproj
+xcode_scheme: ImageURLLoaderTests
 xcode_destination: platform=iOS Simulator,OS=13.6,name=iPhone 8
 
-script: 
-  - swiftlint
-  - xcodebuild test -project 'ImageURLLoader.xcodeproject' -scheme 'ImageURLLoaderTests' -destination 'platform=iOS Simulator,OS=13.6,name=iPhone 8'
+script:
+  - xcodebuild test -project 'ImageURLLoader.xcodeproject' -scheme 'ImageURLLoaderTests'
+
+after_failure:

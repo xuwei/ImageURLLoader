@@ -354,7 +354,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development: Xuwei Liang (LL5VZ4U89T)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -382,7 +382,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development: Xuwei Liang (LL5VZ4U89T)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -409,7 +409,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development: support@wisetreeapps.com (L3GAFGXJCK)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,7 +429,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development: support@wisetreeapps.com (L3GAFGXJCK)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "ImageURLLoader is an utility class to simplify loading of image by imageURL. It is not an extension of UIImageView, as this approach leads to memory leak if the UIImageView is part of deallocated cell/view."
 
-  spec.homepage     = "http://github.com/xuwei/ImageURLLoader"
+  spec.homepage     = "https://github.com/xuwei/ImageURLLoader"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "xuwei" => "email.xuwei@gmail.com" }
   # Or just: spec.author    = "xuwei"
-  spec.authors            = { "xuwei" => "email.xuwei@gmail.com" }
+  #spec.authors            = { "xuwei" => "email.xuwei@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/xuwei"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/xuwei/ImageURLLoader.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/xuwei/ImageURLLoader.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-  spec.exclude_files = 'ImageURLLoader/*.plist'
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.source_files  = "ImageURLLoader/**/*"
+  spec.exclude_files = "ImageURLLoader/*.plist"
+  spec.public_header_files = "ImageURLLoader/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -10,12 +10,6 @@
 		96750C1025707538000D9768 /* ImageURLLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96750C0625707538000D9768 /* ImageURLLoader.framework */; };
 		96750C1525707538000D9768 /* ImageURLLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C1425707538000D9768 /* ImageURLLoaderTests.swift */; };
 		96750C1725707538000D9768 /* ImageURLLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 96750C0925707538000D9768 /* ImageURLLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96750C2B257075FC000D9768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C2A257075FC000D9768 /* AppDelegate.swift */; };
-		96750C2D257075FC000D9768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C2C257075FC000D9768 /* SceneDelegate.swift */; };
-		96750C2F257075FC000D9768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C2E257075FC000D9768 /* ViewController.swift */; };
-		96750C32257075FC000D9768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96750C30257075FC000D9768 /* Main.storyboard */; };
-		96750C34257075FE000D9768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96750C33257075FE000D9768 /* Assets.xcassets */; };
-		96750C37257075FE000D9768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96750C35257075FE000D9768 /* LaunchScreen.storyboard */; };
 		96750C6625707C85000D9768 /* ImageURLLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C6525707C85000D9768 /* ImageURLLoader.swift */; };
 		96750C6B25707CB7000D9768 /* ImageURLLoaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96750C6A25707CB6000D9768 /* ImageURLLoaderProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -37,14 +31,6 @@
 		96750C0F25707538000D9768 /* ImageURLLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageURLLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96750C1425707538000D9768 /* ImageURLLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLLoaderTests.swift; sourceTree = "<group>"; };
 		96750C1625707538000D9768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96750C28257075FC000D9768 /* ImageURLLoaderExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageURLLoaderExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96750C2A257075FC000D9768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96750C2C257075FC000D9768 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96750C2E257075FC000D9768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96750C31257075FC000D9768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96750C33257075FE000D9768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96750C36257075FE000D9768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96750C38257075FE000D9768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96750C6525707C85000D9768 /* ImageURLLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLLoader.swift; sourceTree = "<group>"; };
 		96750C6A25707CB6000D9768 /* ImageURLLoaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLLoaderProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,13 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96750C25257075FC000D9768 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,7 +59,6 @@
 			children = (
 				96750C0825707538000D9768 /* ImageURLLoader */,
 				96750C1325707538000D9768 /* ImageURLLoaderTests */,
-				96750C29257075FC000D9768 /* ImageURLLoaderExamples */,
 				96750C0725707538000D9768 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,7 +68,6 @@
 			children = (
 				96750C0625707538000D9768 /* ImageURLLoader.framework */,
 				96750C0F25707538000D9768 /* ImageURLLoaderTests.xctest */,
-				96750C28257075FC000D9768 /* ImageURLLoaderExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,20 +90,6 @@
 				96750C1625707538000D9768 /* Info.plist */,
 			);
 			path = ImageURLLoaderTests;
-			sourceTree = "<group>";
-		};
-		96750C29257075FC000D9768 /* ImageURLLoaderExamples */ = {
-			isa = PBXGroup;
-			children = (
-				96750C2A257075FC000D9768 /* AppDelegate.swift */,
-				96750C2C257075FC000D9768 /* SceneDelegate.swift */,
-				96750C2E257075FC000D9768 /* ViewController.swift */,
-				96750C30257075FC000D9768 /* Main.storyboard */,
-				96750C33257075FE000D9768 /* Assets.xcassets */,
-				96750C35257075FE000D9768 /* LaunchScreen.storyboard */,
-				96750C38257075FE000D9768 /* Info.plist */,
-			);
-			path = ImageURLLoaderExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,23 +142,6 @@
 			productReference = 96750C0F25707538000D9768 /* ImageURLLoaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96750C27257075FC000D9768 /* ImageURLLoaderExamples */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96750C55257075FE000D9768 /* Build configuration list for PBXNativeTarget "ImageURLLoaderExamples" */;
-			buildPhases = (
-				96750C24257075FC000D9768 /* Sources */,
-				96750C25257075FC000D9768 /* Frameworks */,
-				96750C26257075FC000D9768 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ImageURLLoaderExamples;
-			productName = ImageURLLoaderExamples;
-			productReference = 96750C28257075FC000D9768 /* ImageURLLoaderExamples.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,9 +156,6 @@
 						LastSwiftMigration = 1210;
 					};
 					96750C0E25707538000D9768 = {
-						CreatedOnToolsVersion = 12.1;
-					};
-					96750C27257075FC000D9768 = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
@@ -232,7 +175,6 @@
 			targets = (
 				96750C0525707538000D9768 /* ImageURLLoader */,
 				96750C0E25707538000D9768 /* ImageURLLoaderTests */,
-				96750C27257075FC000D9768 /* ImageURLLoaderExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -249,16 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96750C26257075FC000D9768 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96750C37257075FE000D9768 /* LaunchScreen.storyboard in Resources */,
-				96750C34257075FE000D9768 /* Assets.xcassets in Resources */,
-				96750C32257075FC000D9768 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +214,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96750C24257075FC000D9768 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96750C2F257075FC000D9768 /* ViewController.swift in Sources */,
-				96750C2B257075FC000D9768 /* AppDelegate.swift in Sources */,
-				96750C2D257075FC000D9768 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -301,25 +223,6 @@
 			targetProxy = 96750C1125707538000D9768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		96750C30257075FC000D9768 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96750C31257075FC000D9768 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		96750C35257075FE000D9768 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96750C36257075FE000D9768 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		96750C1825707538000D9768 /* Debug */ = {
@@ -448,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
@@ -475,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
@@ -501,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Wisetree Solutions Pty Ltd (KYEZ379B3G)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;
@@ -520,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Wisetree Solutions Pty Ltd (KYEZ379B3G)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KYEZ379B3G;
 				INFOPLIST_FILE = ImageURLLoaderTests/Info.plist;
@@ -529,44 +436,6 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.ImageURLLoaderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		96750C4F257075FE000D9768 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYEZ379B3G;
-				INFOPLIST_FILE = ImageURLLoaderExamples/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.ImageURLLoaderExamples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		96750C50257075FE000D9768 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYEZ379B3G;
-				INFOPLIST_FILE = ImageURLLoaderExamples/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wisetreeapps.ImageURLLoaderExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -599,15 +468,6 @@
 			buildConfigurations = (
 				96750C1E25707538000D9768 /* Debug */,
 				96750C1F25707538000D9768 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96750C55257075FE000D9768 /* Build configuration list for PBXNativeTarget "ImageURLLoaderExamples" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96750C4F257075FE000D9768 /* Debug */,
-				96750C50257075FE000D9768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
